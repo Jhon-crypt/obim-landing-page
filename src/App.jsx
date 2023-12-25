@@ -5,6 +5,8 @@ import LandingHeroPage from './components/hero/landingHero'
 import FeatureSection from './components/section/fetaureSection'
 import SectionHero from './components/hero/sectionHero'
 import SecondSectionHero from './components/hero/secondSectionHero'
+import CallToActionHero from './components/hero/callToActionHero'
+import Footer from './components/footer/footer'
 import './App.css'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <FeatureSection /> 
         <SectionHero />
         <SecondSectionHero /> 
+        <CallToActionHero />
+        <Footer />
       </div>
     </>
   )
