@@ -3,6 +3,8 @@
 import Header from './components/header/header'
 import LandingHeroPage from './components/hero/landingHero'
 import FeatureSection from './components/section/fetaureSection'
+import SectionHero from './components/hero/sectionHero'
+import SecondSectionHero from './components/hero/secondSectionHero'
 import './App.css'
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <div>
         <Header />
         <LandingHeroPage />
-        <FeatureSection />  
+        <FeatureSection /> 
+        <SectionHero />
+        <SecondSectionHero /> 
       </div>
     </>
   )
